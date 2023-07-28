@@ -1,0 +1,110 @@
+.container {
+  background: rgba(0, 0, 0, 0.44);
+  width: 25rem;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4);
+  -webkit-backdrop-filter: blur(7.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.container form {
+  margin: 30px 0 10px 0;
+}
+.container form p {
+  margin-bottom: 7px;
+  font-size: 1rem;
+}
+.container form input {
+  width: 100%;
+  background: transparent;
+  padding: 0 15px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #999;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+.container form input:hover {
+  border: 1px solid #675afe;
+}
+.container form input:focus {
+  padding: 0 14px;
+  border: 1px solid #675afe;
+}
+.container .convert-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.container form .from,
+.container form .to {
+  width: 100%;
+}
+.convert-box .select-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.convert-box .select-input:hover {
+  border: 1px solid #675afe;
+}
+.container .convert-box img {
+  max-width: 20px;
+}
+.convert-box .select-input select {
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+}
+.convert-box .select-input option {
+  color: #000;
+}
+.container .convert-box .reverse {
+  transform: rotate(90deg);
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 32px;
+  transition: all 0.3s ease;
+}
+.container .convert-box .reverse:hover {
+  color: #675afe;
+}
+.container .convert-box .result {
+  font-size: 1.1rem;
+  margin: 20px 0 30px 0;
+}
+.container .convert-box button {
+  border-radius: 5px;
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  background-color: #20232c;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container .convert-box button:hover {
+  background-color: #675afe;
+}
+.rotateIcon {
+  transform: rotate(180deg);
+  transition: all 1s ease;
+}
